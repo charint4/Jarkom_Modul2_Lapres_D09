@@ -63,12 +63,49 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 1. Pertama membuat domain dengan mengisikan konfigurasi untuk semerud09.pw di MALANG seperti berikut
 
+![img](/img/1-1.jpg)
 
-2.
+- Buat folder jarkom di dalam /etc/bind, lalu copykan file db.local pada path /etc/bind ke dalam folder jarkom
+- Kemudian buka file semerud09.pw dan edit seperti gambar berikut
 
-3.
+![img](/img/1-2.jpg)
 
-4. 
+- Setelah di restart bind9 nya dan dicoba hasilnya,
+
+![img](/img/1-3.jpg)
+
+2. Menambahkan Alias
+
+![img](/img/2-1.jpg)
+
+- Kemudian hasilnya coba diping
+
+![img](/img/2-2.jpg)
+
+3. Membuat Subdomain
+
+![img](/img/3-1.jpg)
+
+- Hasil pingnya : 
+
+![img](/img/3-2.jpg)
+
+4. Membuat Reverse Domain
+
+![img](/img/4-1.jpg)
+
+- Tambahkan konfigurasi berikut ke dalam file named.conf.local
+
+![img](/img/4-2.jpg)
+
+- Copykan file db.local pada path /etc/bind ke dalam folder jarkom
+- Edit File 79.151.10.in-addr.arpa menjadi seperti gambar di bawah ini
+
+![img](/img/4-3.jpg)
+
+- Setelah itu restart Malang dan jika dicoba pada Gresik hasilnya
+
+![img](/img/4-4.jpg)
 
 ### Revisi
 
