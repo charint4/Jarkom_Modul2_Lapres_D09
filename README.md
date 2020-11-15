@@ -170,17 +170,14 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/9.1.jpg)
 
-- Lalu untuk semerud09.pw, AllowOverride diganti All
+- Lalu edit file .htaccess dan isikan seperti berikut
 
 ![img](/img/9.2.jpg)
 
-- Lalu edit file .htaccess dan isikan seperti berikut
+- Lalu untuk melihat hasilnya tinggal di coba untuk semerud09.pw/home
 
 ![img](/img/9.3.jpg)
 
-- Lalu untuk melihat hasilnya tinggal di coba untuk semerubd09.pw/home
-
-![img](/img/9.4.jpg)
 
 10. Mensetting penanjakan.semerud09.pw
 
@@ -192,13 +189,10 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/10.2.jpg)
 
-- Aktifkan a2ensite penanjakan.semerud09.pw
-
-![img](/img/10.3.jpg)
 
 - Hasilnya jika dibuka 
 
-![img](/img/10.4.jpg)
+![img](/img/10.3.jpg)
 
 11. Listing pada /public tanpa public/*
 
@@ -228,7 +222,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/12.3.jpg)
 
-13. 
+13. Mengubah inisial untuk folder javascript
 
 - Dengan menambahkan Alias dengan memberinya alias "/js"
 
