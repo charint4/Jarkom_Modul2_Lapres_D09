@@ -104,11 +104,40 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 - Setelah itu restart Malang dan jika dicoba pada Gresik hasilnya
 
 ![img](/img/4.3.jpg)
+
 ### Revisi
 
-5.
+5. Membuat DNS Server Slave
+- Edit file /etc/bind/named.conf.local dan sesuaikan dengan syntax berikut
 
-6.
+![img](/img/5.1.jpg)
+
+- Kemudian buka file /etc/bind/named.conf.local pada MOJOKERTO dan tambahkan syntax berikut:
+
+![img](/img/5.2.jpg)
+
+-  Untuk testing kita matikan malang dengan service bind9 stop, lalu kita test seperti no 4
+
+![img](/img/5.4.jpg)
+
+6. Membuat subdomain di delagasikan ke MOJOKERTO dan mengarah ke PROBOLINGGO
+- Ubah pada MALANG dengan menambahkan subdomain baru
+
+![img](/img/6.1.jpg)
+
+- Kemudian edit file /etc/bind/named.conf.options pada MALANG, comment dnssec-validation auto; dan tambahkan baris berikut pada /etc/bind/named.conf.options
+
+![img](/img/6.2.jpg)
+
+- Kemudian buat direktori dengan nama delegasi lalu copy db.local
+- Kemudian edit file gunung.semerud09.pw menjadi seperti dibawah ini
+
+![img](/img/6.3.jpg)
+
+- Lalu coba ping di gresik
+
+![img](/img/6.4.jpg)
+
 
 7.
 
