@@ -61,7 +61,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ### Jawaban
 
-1. Pertama membuat domain dengan mengisikan konfigurasi untuk semerud09.pw di MALANG seperti berikut
+#### 1. Pertama membuat domain dengan mengisikan konfigurasi untuk semerud09.pw di MALANG seperti berikut
 
 ![img](/img/1.1.jpg)
 
@@ -74,7 +74,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/1.3.jpg)
 
-2. Menambahkan Alias
+#### 2. Menambahkan Alias
 
 ![img](/img/2.1.jpg)
 
@@ -82,7 +82,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/2.2.jpg)
 
-3. Membuat Subdomain
+#### 3. Membuat Subdomain
 
 ![img](/img/3.1.jpg)
 
@@ -90,7 +90,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/3.2.jpg)
 
-4. Membuat Reverse Domain
+#### 4. Membuat Reverse Domain
 
 - Tambahkan konfigurasi berikut ke dalam file named.conf.local
 
@@ -107,7 +107,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ### Revisi
 
-5. Membuat DNS Server Slave
+#### 5. Membuat DNS Server Slave
 - Edit file /etc/bind/named.conf.local dan sesuaikan dengan syntax berikut
 
 ![img](/img/5.1.jpg)
@@ -120,7 +120,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/5.4.jpg)
 
-6. Membuat subdomain di delagasikan ke MOJOKERTO dan mengarah ke PROBOLINGGO
+#### 6. Membuat subdomain di delagasikan ke MOJOKERTO dan mengarah ke PROBOLINGGO
 - Ubah pada MALANG dengan menambahkan subdomain baru
 
 ![img](/img/6.1.jpg)
@@ -143,7 +143,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 ![img](/img/6.4.jpg)
 
 
-7. Membuat subdomain naik.gunung.semerud09.pw
+#### 7. Membuat subdomain naik.gunung.semerud09.pw
 
 - Pada MOJOKERTO ditambahkan konfigurasi sebagai berikut
 
@@ -154,7 +154,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 ![img](/img/7.2.jpg)
 
 
-8. Mengatur webserver untuk Domain semerUd09.pw
+#### 8. Mengatur webserver untuk Domain semerUd09.pw
 
 - Menambahkan ServerName dan DocumentRoot
 
@@ -164,7 +164,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/8.2.jpg)
 
-9. Menghilangkan index.php
+#### 9. Menghilangkan index.php
 
 - Di semerud09.pw, AllowOverride diganti All
 
@@ -179,7 +179,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 ![img](/img/9.3.jpg)
 
 
-10. Mensetting penanjakan.semerud09.pw
+#### 10. Mensetting penanjakan.semerud09.pw
 
 - Ekstrak file ke folder penanjakan.semerud09.pw
 
@@ -194,7 +194,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/10.3.jpg)
 
-11. Listing pada /public tanpa public/*
+#### 11. Listing pada /public tanpa public/*
 
 - Tambahkan Option +Indexes untuk directory penanjakan.semerud09.pw/public, dan tambahkan Option -Indexes untuk directory penanjakan.semerud09.pw/public/*
 
@@ -208,7 +208,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/11.3.jpg)
 
-12. Merubah error page dengan 404.html
+#### 12. Merubah error page dengan 404.html
 
 - Dengan menambahkan ErrorDocument 404 /errors/404.html
 
@@ -222,7 +222,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/12.3.jpg)
 
-13. Mengubah inisial untuk folder javascript
+#### 13. Mengubah inisial untuk folder javascript
 
 - Dengan menambahkan Alias dengan memberinya alias "/js"
 
@@ -236,7 +236,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/13.3.jpg)
 
-16. Mengarahkan ke ip probolinggo yaitu 10.151.79.84
+#### 16. Mengarahkan ke ip probolinggo yaitu 10.151.79.84
 
 ![img](/img/16.1.jpg)
 
@@ -256,7 +256,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/16.5.jpg)
 
-17. Mengubah semua gambar yang mengandung "semeru" ke semeru.jpg
+#### 17. Mengubah semua gambar yang mengandung "semeru" ke semeru.jpg
 
 - Awal
 
