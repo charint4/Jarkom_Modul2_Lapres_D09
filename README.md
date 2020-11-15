@@ -154,23 +154,133 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 ![img](/img/7.2.jpg)
 
 
+8. Mengatur webserver untuk Domain semerUd09.pw
 
+- Menambahkan ServerName dan DocumentRoot
 
-8.
+![img](/img/8.1.jpg)
 
-9.
+- Lalu untuk melihat hasilnya dapat diakses dengan browser semerud09.pw
 
-10.
+![img](/img/8.2.jpg)
 
-11.
+9. Menghilangkan index.php
 
-12.
+- Aktifkan a2enmod rewrite
 
-13.
+![img](/img/9.1.jpg)
 
-14.
+- Lalu untuk semerud09.pw, AllowOverride diganti All
 
-15.
+![img](/img/9.2.jpg)
+
+- Lalu edit file .htaccess dan isikan seperti berikut
+
+![img](/img/9.3.jpg)
+
+- Lalu untuk melihat hasilnya tinggal di coba untuk semerubd09.pw/home
+
+![img](/img/9.4.jpg)
+
+10. Mensetting penanjakan.semerud09.pw
+
+- Ekstrak file ke folder penanjakan.semerud09.pw
+
+![img](/img/10.1.jpg)
+
+- Tambahkan ServerName dan DocumentRoot penanjakan.semerud09.pw  
+
+![img](/img/10.2.jpg)
+
+- Aktifkan a2ensite penanjakan.semerud09.pw
+
+![img](/img/10.3.jpg)
+
+- Hasilnya jika dibuka 
+
+![img](/img/10.4.jpg)
+
+11. Listing pada /public tanpa public/*
+
+- Tambahkan Option +Indexes untuk directory penanjakan.semerud09.pw/public, dan tambahkan Option -Indexes untuk directory penanjakan.semerud09.pw/public/*
+
+![img](/img/11.1.jpg)
+
+- Hasilnya saat mengakses penanjakan.semerubd09.pw/public/
+
+![img](/img/11.2.jpg)
+
+- Hasilnya saat mengakses penanjakan.semerud09.pw/public/css/
+
+![img](/img/11.3.jpg)
+
+12. Merubah error page dengan 404.html
+
+- Dengan menambahkan ErrorDocument 404 /errors/404.html
+
+![img](/img/12.1.jpg)
+
+- Lalu apache di restart
+
+![img](/img/12.2.jpg)
+
+- Hasilnya saat mengakses link yang tidak ada
+
+![img](/img/12.3.jpg)
+
+13. 
+
+- Dengan menambahkan Alias dengan memberinya alias "/js"
+
+![img](/img/13.1.jpg)
+
+- Lalu restart apache
+
+![img](/img/13.2.jpg)
+
+- Hasilnya saat mengakses penanjakan.semerud09.pw/js
+
+![img](/img/13.3.jpg)
+
+14. Membuat naik.gunung.semerud09.pw di port 8888
+
+- Setting virtual host di port 8888, tambahkan server name dan document root untuk naik.gunung.semerud09.pw
+
+![img](/img/14.1.jpg)
+
+- Lalu pada ports.conf untuk pot 8888
+
+![img](/img/14.2.jpg)
+
+- Restart apache
+
+![img](/img/14.3.jpg)
+
+- Hasilnya jika mengakases naik.gunung.semerud09.pw:8888
+
+![img](/img/14.4.jpg)
+
+15. Memberikan Auth pada naik.gunung.semerud09.pw
+
+- Membuat user "semeru" dan password "kuynaikgunung" dengan perintah dibawah
+
+![img](/img/15.1.jpg)
+
+- Tambahkan Auth untuk directory naik.gunung.semerud09.pw
+
+![img](/img/15.2.jpg)
+
+- Restart apache
+
+![img](/img/15.3.jpg)
+
+- Hasilnya saat mengakses naik.gunung.semerud09.pw:8888
+
+![img](/img/15.4.jpg)
+
+- Setelah memasukkan username dan password yang sesuai
+
+![img](/img/15.5.jpg)
 
 16.
 
