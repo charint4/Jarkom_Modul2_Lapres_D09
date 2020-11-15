@@ -236,46 +236,6 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/13.3.jpg)
 
-14. Membuat naik.gunung.semerud09.pw di port 8888
-
-- Setting virtual host di port 8888, tambahkan server name dan document root untuk naik.gunung.semerud09.pw
-
-![img](/img/14.1.jpg)
-
-- Lalu pada ports.conf untuk pot 8888
-
-![img](/img/14.2.jpg)
-
-- Restart apache
-
-![img](/img/14.3.jpg)
-
-- Hasilnya jika mengakases naik.gunung.semerud09.pw:8888
-
-![img](/img/14.4.jpg)
-
-15. Memberikan Auth pada naik.gunung.semerud09.pw
-
-- Membuat user "semeru" dan password "kuynaikgunung" dengan perintah dibawah
-
-![img](/img/15.1.jpg)
-
-- Tambahkan Auth untuk directory naik.gunung.semerud09.pw
-
-![img](/img/15.2.jpg)
-
-- Restart apache
-
-![img](/img/15.3.jpg)
-
-- Hasilnya saat mengakses naik.gunung.semerud09.pw:8888
-
-![img](/img/15.4.jpg)
-
-- Setelah memasukkan username dan password yang sesuai
-
-![img](/img/15.5.jpg)
-
 16. Mengarahkan ke ip probolinggo yaitu 10.151.79.84
 
 ![img](/img/16.1.jpg)
