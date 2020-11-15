@@ -61,7 +61,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ### Jawaban
 
-1.Pertama membuat domain dengan mengisikan konfigurasi untuk semerub09.pw di MALANG seperti berikut
+1. Pertama membuat domain dengan mengisikan konfigurasi untuk semerud09.pw di MALANG seperti berikut
 
 
 2.
