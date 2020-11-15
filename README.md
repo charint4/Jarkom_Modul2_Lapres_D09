@@ -129,17 +129,32 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/6.2.jpg)
 
+- Pada MOJOKERTO edit file /etc/bind/named.conf.options seperti gmbar berikut
+
+![img](/img/6.3.jpg)
+
 - Kemudian buat direktori dengan nama delegasi lalu copy db.local
 - Kemudian edit file gunung.semerud09.pw menjadi seperti dibawah ini
 
-![img](/img/6.3.jpg)
+![img](/img/6.4.jpg)
 
 - Lalu coba ping di gresik
 
 ![img](/img/6.4.jpg)
 
 
-7.
+7. Membuat subdomain naik.gunung.semerud09.pw
+
+- Pada MOJOKERTO ditambahkan konfigurasi sebagai berikut
+
+![img](/img/7.1.jpg)
+
+- Lalu kita coba ping di gresik
+
+![img](/img/7.2.jpg)
+
+
+
 
 8.
 
