@@ -282,6 +282,40 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 ![img](/img/15.5.jpg)
 
-16.
+16. Mengarahkan ke ip probolinggo yaitu 10.151.79.84
 
-17.
+![img](/img/16.1.jpg)
+
+- Ubah .htaccess  default pada probolinggo untuk meredirect ip probolinggo ke semerud09.pw
+
+![img](/img/16.2.jpg)
+
+- Ganti allowoverride none jadi all untuk direktori /var/www/
+
+![img](/img/16.3.jpg)
+
+- Restart apache
+
+![img](/img/16.4.jpg)
+
+- Hasilnya saat mengakses 10.151.79.84
+
+![img](/img/16.5.jpg)
+
+17. Mengubah semua gambar yang mengandung "semeru" ke semeru.jpg
+
+- Awal
+
+![img](/img/17.1.jpg)
+
+- Ubah file .htaccess seperti berikut
+
+![img](/img/17.2.jpg)
+
+- Tambahkan AllowOverride All untuk directory penanjakan.semerud09.pw
+
+![img](/img/17.3.jpg)
+
+- Semua akses file gambar yang mengandung "semeru" akan diarahkan ke semeru.jpg
+
+![img](/img/17.4.jpg)
