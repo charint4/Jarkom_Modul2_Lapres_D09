@@ -166,7 +166,7 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 9. Menghilangkan index.php
 
-- Aktifkan a2enmod rewrite
+- Di semerud09.pw, AllowOverride diganti All
 
 ![img](/img/9.1.jpg)
 
