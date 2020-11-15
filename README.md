@@ -92,21 +92,18 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 4. Membuat Reverse Domain
 
-![img](/img/4.1.jpg)
-
 - Tambahkan konfigurasi berikut ke dalam file named.conf.local
 
-![img](/img/4.2.jpg)
+![img](/img/4.1.jpg)
 
 - Copykan file db.local pada path /etc/bind ke dalam folder jarkom
 - Edit File 79.151.10.in-addr.arpa menjadi seperti gambar di bawah ini
 
-![img](/img/4.3.jpg)
+![img](/img/4.2.jpg)
 
 - Setelah itu restart Malang dan jika dicoba pada Gresik hasilnya
 
-![img](/img/4.4.jpg)
-
+![img](/img/4.3.jpg)
 ### Revisi
 
 5.
